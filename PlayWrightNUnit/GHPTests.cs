@@ -19,7 +19,12 @@ namespace PlayWrightNUnit
         //    using var playwright = await Playwright.CreateAsync();
 
         //    //launch browser
-        //    await using var browser = await playwright.Chromium.LaunchAsync();
+        //    await using var browser = await playwright.Chromium.LaunchAsync(
+        //        new BrowserTypeLaunchOptions
+        //        {
+        //            Headless=false
+        //        }
+        //        );
 
         //    //page instance
         //    var context = await browser.NewContextAsync();
@@ -57,10 +62,11 @@ namespace PlayWrightNUnit
 
             await Page.GetByRole(AriaRole.Button).GetByText("Google Search").ClickAsync();
             Console.WriteLine("Clicked");
-            title = await Page.TitleAsync();
-            Console.WriteLine("Title: " + title);
-            Assert.That(title, Is.EqualTo(searchText + " - Google Search"));
-            //Expect(Page.TitleAsync()).Equals(searchText + " - Google Search");
+            /* title = await Page.TitleAsync();
+             Console.WriteLine("Title: " + title);
+             Assert.That(title, Is.EqualTo(searchText + " - Google Search"));*/ //for c# nunit
+
+            await Expect(Page).ToHaveTitleAsync(searchText + " - Google Search");
         }
     }
 }
