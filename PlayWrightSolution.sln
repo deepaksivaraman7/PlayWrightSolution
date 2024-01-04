@@ -5,7 +5,11 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppProject", "ConsoleAppProject\ConsoleAppProject.csproj", "{C6162681-6D3C-46BA-BDDC-C59E4FDE0242}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayWrightNUnit", "PlayWrightNUnit\PlayWrightNUnit.csproj", "{42EB39ED-EDB2-4025-9717-4D099CE710E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayWrightNUnit", "PlayWrightNUnit\PlayWrightNUnit.csproj", "{42EB39ED-EDB2-4025-9717-4D099CE710E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignments", "Assignments\Assignments.csproj", "{9FE1E85D-F1AA-4B2E-8A0F-B874BFC714B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayWrightPOM", "PlayWrightPOM\PlayWrightPOM.csproj", "{BDA20DD2-5FED-4F4F-9D89-2A5900A8D621}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{42EB39ED-EDB2-4025-9717-4D099CE710E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42EB39ED-EDB2-4025-9717-4D099CE710E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42EB39ED-EDB2-4025-9717-4D099CE710E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FE1E85D-F1AA-4B2E-8A0F-B874BFC714B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE1E85D-F1AA-4B2E-8A0F-B874BFC714B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE1E85D-F1AA-4B2E-8A0F-B874BFC714B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE1E85D-F1AA-4B2E-8A0F-B874BFC714B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA20DD2-5FED-4F4F-9D89-2A5900A8D621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA20DD2-5FED-4F4F-9D89-2A5900A8D621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA20DD2-5FED-4F4F-9D89-2A5900A8D621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA20DD2-5FED-4F4F-9D89-2A5900A8D621}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
